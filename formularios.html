@@ -15,24 +15,54 @@
     method="POST">
     <fieldset>
     <legend title="Datos personales"> Datos Personales</legend>
-    Nombre: <input type="text" name="nombreUsuario"><br>
+    <label>
+    Nombre: 
+    <input type="text" name="nombreUsuario" placeholder="Nombre y apellido"><br>
+    </label>
+    <label><!--Para poner el foco-->
     Contraseña: <input type="password" name="contraseñaUsuario"><br>
-    Edad: <input type="number" name="EdadUsuario"><br>
-
+    </label>
+    
+   <label for="idContraseña">Edad:</label>
+    <input type="number" name="EdadUsuario" id="idContraseña" required><br>
+    
+    Foto de perfil:<br>
+    <input type="file" value="foto">
+    <br>
+    Fecha de Nacimiento:
+    <input type="date" name="FechaDeNacimiento">
+    <br>
+    Estado de origen: <select name="Estado"> <!-- combo box, puede tener diferentes opciones-->
+        <option value="Gto" >Guanajuato </option>
+        <option value="SLP">San luis Potosì </option>
+        <option value="Gda">Guadalajara </option>
+    </select> 
+    <br>
+        <!-- Lista de Selecciòn multiple-->
+        Materias Favoritas:<select name="Materias[]" multiple>
+            <option>Tec Web</option>
+            <option>CONTROL</option>
+            <option>Visual</option>
+        </select>
+        <br>
+        Comentarios
+        <textarea placeholder="Escribe tus Comentarios"></textarea>
+           
     </fieldset>
 
     <fieldset>
     <legend title="Preferencias">Preferencias</legend>
-    Windows: <input type="checkbox" name="SistemaOperativo" value="Windows" >
-    Linux: <input type="checkbox" name="SistemaOperativo" value="Linux" >
-    OSX: <input type="checkbox" name="SistemaOperativo"  value="OSx"><br>
+    Windows: <input type="checkbox" name="SistemaOperativo[]" value="Windows" >
+    Linux: <input type="checkbox" name="SistemaOperativo[]" value="Linux" >
+    OSX: <input type="checkbox" name="SistemaOperativo[]"  value="OSx"><br>
     Android:  <input type="radio" name="Tèlefono" value="Andriod"><br>
     IOS:  <input type="radio" name="Tèlefono" value="IOs"><br>
        
     </fieldset>
     <legend>
+        <input type="reset" value="Limpiar">
      <input type="submit" value="Registrar">
-     <button >Click Me! </button>
+     <button >Click Me! </button><!-- Es lo miso de registrar-->
     
      
     </form>
