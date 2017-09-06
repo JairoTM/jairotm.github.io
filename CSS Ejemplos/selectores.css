@@ -1,0 +1,15 @@
+/*Selectore Universal*/
+
+*{
+    font-family: Arial;
+}
+
+/*Selector*/
+
+.subtitulo {
+    color:blue;
+}
+/*Ejemplo de ideentificadores*/
+#Intro{
+    font-weight: bold;
+}
