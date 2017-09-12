@@ -1,0 +1,17 @@
+*{
+color: blue;
+    margin: 0px;
+
+}
+#Relativo {
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+#absoluto{
+    position: absolute;
+    top: 100px;
+    background-color: burlywood;
+
+}
