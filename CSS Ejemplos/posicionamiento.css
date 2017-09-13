@@ -15,3 +15,22 @@ color: blue;
     background-color: burlywood;
 
 }
+body{
+
+    background-color: lightsalmon;
+}
+#Contenedor {
+    background: white;
+    margin: 20px;
+    width: 400;
+}
+/*Pedir este estilo*/
+#line, #p1{
+
+    float: left;
+    width: 100;
+}
+#p3
+{
+    clear: left;
+}
