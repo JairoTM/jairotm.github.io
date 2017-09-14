@@ -22,13 +22,13 @@ body{
 #Contenedor {
     background: white;
     margin: 20px;
-    width: 400;
+    width: 400px;
 }
 /*Pedir este estilo*/
-#line, #p1{
+#p2, #p1{
 
     float: left;
-    width: 100;
+    width: 100px;
 }
 #p3
 {
