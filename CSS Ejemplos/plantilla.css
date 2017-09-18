@@ -2,17 +2,53 @@
     color: white;
     font-family: Arial;
     background-color: cadetblue;
-    width: 200;
+    width: 900px;
+    height: 80px;
+    margin: 0px;
 }
-
+#Con{
+    margin: 0px;    
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
 #Contenedor
 {
-    margin: 20px;
-    width: 700px;
+    margin-left: 200px;
+    width: 900px;
 
 
 }
-#Parrf1, #Barra{
+#Parrf1{
+    margin: 0px;
+    width: 580px;
+}
+#Barra{
     float: left;
-    width: 200;
+    background-color: burlywood;
+    width: 300px;
+    /*border-bottom-style: groove;
+    border-bottom-color: grey;*/
+}
+#art, #art1, #art2{
+    border: 1px;
+    margin: 0px;
+    float: left;
+    width: 580px;
+    }
+
+#artBarra{
+     margin: 1px;
+    width: 260px;
+}
+#Pie {
+    clear: left;
+background-color: cadetblue;
+width: 900px;
+height: 80px;
+margin: 0px;
+color: white;
+font-family: Arial;
+text-align: center;
+
+
 }
